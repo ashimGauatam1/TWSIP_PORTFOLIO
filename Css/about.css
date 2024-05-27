@@ -1,0 +1,313 @@
+.about h1{
+    position: absolute;
+    top: 650px;
+    left: 600px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid blue;
+    padding: 5px;
+}
+.about-img img{
+    position: absolute;
+    top: 800px;
+    left: 60px;
+    height: 300px;
+    width: 280px;
+    border-radius: 5%;
+}
+.about h1:hover,.skills h1:hover,.work h1:hover{
+    border-bottom: 3px solid rgb(255, 0, 0);
+}
+.about h5{
+    position: relative;
+    top: 700px;
+    left: 430px;
+    width: 910px;    
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    color: rgb(59, 58, 58);
+}
+/* skill */
+.skills h3{
+    position: relative;
+    top: 850px;
+    left: 50px;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.skills h1{
+    position: absolute;
+    top: 1160px;
+    left: 700px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid blue;
+    padding: 5px;
+}
+.skills__data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 900px;
+  left: 80px;
+  width: 500px;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+}
+
+.skills__icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: purple;
+}
+
+.skills__names {
+  display: flex;
+  align-items: center;
+}
+
+.skills__bar {
+  width: 100%;
+  height: 0.25rem;
+  background-color: purple;
+  border-radius: 0.5rem;
+}
+
+.skills__html {
+  width: 95%;
+}
+
+.skills__css {
+  width: 85%;
+}
+
+.skills__js {
+  width: 65%;
+}
+
+.skills__ux {
+  width: 85%;
+}
+
+.skills__py {
+  width: 85%;
+}
+
+.skills__ex {
+  width: 65%;
+}
+
+.skills__img {
+  position: relative;
+  top: 450px;
+  left: 800px;
+  height: 500px;
+  width: 500px;
+  border-radius: 0.5rem;
+}  
+  /* work */
+  .work h1{
+    position: absolute;
+    top: 1900px;
+    left: 600px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid blue;
+    padding: 5px;
+}
+.card-container{
+  position: absolute;
+  top: 2000px;
+  left: 150px;
+}
+
+.card {
+  width: 300px;
+  position: relative;
+  top: 100px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-left: 20px;
+  display: inline-block;
+}
+.card:hover{
+  box-shadow: 0 0 10px 10px #db7c7c,
+              0   0   10px 10px #db7c7c;
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+}
+
+.card-info {
+  padding: 20px;
+}
+
+.card-info h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+
+.card-info p {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.card-info .button {
+  margin-top: 40px;
+  padding: 8px 16px;
+  background-color: #a18330;
+  position:absolute;
+  color: black;
+  left: 100px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.card-info .button:hover {
+  background-color: #4103eb;
+  color: white;
+}
+.footer {
+  background-color: #3734cc;
+  color: #fff;
+  text-align: center;
+  font-weight: "Poppins", sans-serif;
+  padding: 2rem 0;
+  position: relative;
+  top: 1300px;
+}
+.footer__title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.footer__social {
+  margin-bottom: 2rem;
+}
+.footer__icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 1rem;
+}
+.footer__icon:hover {
+  color: black;
+}
+.footer__copy {
+  font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 768px) {
+.about h1{
+  position: absolute;
+  left: 80px;
+  top: 350px;
+  font-size: 20px;
+}
+.about-img img{
+  position: absolute;
+  left: 10px;
+  top: 450px;
+}
+.about h5{
+  position: relative;
+  top: 700px;
+  left: 2px;
+    font-size: 9px;
+    padding: 1px; 
+    line-height: 1.2; 
+
+}
+.about h3{
+  position: relative;
+  top: 700px;
+  left: 10px;
+  
+}
+.skills h1{
+  position: absolute;
+  left: 100px;
+  top: 910px;
+  font-size: 20px;
+}
+.skills h3{
+  position: relative;
+  top: 1090px;
+  left: 20px;
+}
+.skills__data {
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 1100px;
+  left: 0;
+  width: 70%;
+  padding: 1rem;
+}
+
+.skills__names {
+  margin-bottom: 0.5rem;
+}
+
+.skills__img {
+  position: relative;
+  top: 120px;
+  left: 60px;
+  width: auto;
+  height: auto;
+  margin-top: 1rem;
+}
+.work h1{
+  position: absolute;
+  top: 1950px;
+  font-size: 25px;
+  left: 100px;
+  border-bottom: 3px solid blue;
+}
+
+.card-container{
+  position: absolute;
+  top: 1980px;
+  left: 4px;
+}
+.card {
+  margin-top: 55px;
+}
+.footer {
+  padding: 1rem;
+  top: 2400px;
+  left: 0;
+  width: 70%;
+}
+
+.footer__title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer__social {
+  margin-bottom: 1.5rem;
+}
+
+.footer__icon {
+  font-size: 1.25rem;
+  margin: 0 0.75rem;
+}
+
+.footer__copy {
+  font-size: 0.625rem;
+}
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
